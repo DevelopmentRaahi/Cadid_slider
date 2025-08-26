@@ -2593,7 +2593,7 @@ footer::after {
 }
 .carousel-control-next-icon,
  .carousel-control-prev-icon { 
-  display: none;  
+  display: none ! important;  
 }
 @media (max-width: 450px) {
   .carousel-item{
